@@ -17,6 +17,7 @@ type
     Fornecedores1: TMenuItem;
     Funcionarios1: TMenuItem;
     procedure RegisterClick(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -29,9 +30,20 @@ var
 implementation
 
 uses
-  uView.CRUD.Register;
+  uView.CRUD.Register, uView.Financeiro.Splash;
 
 {$R *.dfm}
+
+procedure TFinanceiroMainView.FormCreate(Sender: TObject);
+begin
+	FinanceiroSplashView := TFinanceiroSplashView.Create(nil);
+	try
+		FinanceiroSplashView.ShowModal;
+   finally
+		if assigned(FinanceiroSplashView) then
+			FreeAndNil(FinanceiroSplashView);
+   end;
+end;
 
 procedure TFinanceiroMainView.RegisterClick(Sender: TObject);
 begin

@@ -58,16 +58,17 @@
         <UWP_DelphiLogo44>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_44.png</UWP_DelphiLogo44>
         <UWP_DelphiLogo150>$(BDS)\bin\Artwork\Windows\UWP\delphi_UwpDefault_150.png</UWP_DelphiLogo150>
         <SanitizedProjectName>Financeiro</SanitizedProjectName>
+        <VerInfo_Locale>1046</VerInfo_Locale>
+        <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProgramID=com.embarcadero.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win32)'!=''">
         <DCC_UsePackage>DBXSqliteDriver;RESTComponents;DataSnapServerMidas;DBXDb2Driver;DBXInterBaseDriver;vclactnband;ACBr_NF3e;vclFireDAC;ACBr_TEFD;emsclientfiredac;ACBr_SATWS;DataSnapFireDAC;tethering;svnui;FireDACADSDriver;ACBr_BPeDabpeESCPOS;ORMBrDriversLinks;ACBr_BPe;DBXMSSQLDriver;ACBr_MDFeDamdfeRL;DatasnapConnectorsFreePascal;FireDACMSSQLDriver;ACBr_EDI;vcltouch;ACBr_NFe;ACBr_ONE;vcldb;bindcompfmx;svn;ACBr_NFeDanfeFR;DBXOracleDriver;inetdb;ACBr_NFeDanfeESCPOS;ACBr_Diversos;ACBr_OFX;ACBr_PAFNFCe;FmxTeeUI;emsedge;ACBr_LCDPR;FireDACIBDriver;fmx;fmxdae;vclib;frxTee26;ACBr_CTeDacteFR;ACBr_SATExtratoFR;ACBr_Ponto;compTrimei;fs26;FireDACDBXDriver;dbexpress;IndyCore;vclx;frxIntIO26;dsnap;DataSnapCommon;emsclient;SVGIconImageListFMX;FireDACCommon;frxcs26;ACBr_NFSeX;RESTBackendComponents;DataSnapConnectors;ACBr_GTIN;ACBR_DeSTDA;VCLRESTComponents;ACBr_Reinf;soapserver;ACBr_SAT;fsTee26;vclie;bindengine;DBXMySQLDriver;CloudService;FireDACOracleDriver;FireDACMySQLDriver;DBXFirebirdDriver;SVGIconPackage;fsIBX26;frx26;ACBr_PAF;FireDACCommonODBC;FireDACCommonDriver;ACBr_Sintegra;DataSnapClient;ACBr_SATECFVirtual;Caffeine;inet;frxIntIOIndy26;ACBr_OpenDelivery;bindcompdbx;IndyIPCommon;ACBr_TCP;ACBr_CTeDacteRL;vcl;DBXSybaseASEDriver;IndyIPServer;ACBr_CTe;frxDB26;IndySystem;fsADO26;FireDACDb2Driver;frxDBX26;ACBr_SATExtratoESCPOS;ACBr_ADRCST;ACBr_PagFor;ACBr_Integrador;dsnapcon;ACBre_Social;FireDACMSAccDriver;FireDACInfxDriver;fmxFireDAC;vclimg;ORMBrManagerObjectSet;TeeDB;FireDAC;fsDB26;ACBr_SPED;ACBr_SPEDImportar;emshosting;ACBr_Comum;frxe26;ACBr_MDFe;ACBr_BoletoRL;FireDACSqliteDriver;FireDACPgDriver;ibmonitor;FireDACASADriver;ACBr_LFD;DBXOdbcDriver;FireDACTDataDriver;FMXTee;frxIBX26;soaprtl;DbxCommonDriver;ACBr_CIOT;ibxpress;Tee;DataSnapServer;xmlrtl;DataSnapNativeClient;ibxbindings;fmxobj;FireDACDSDriver;soapmidas;rtl;emsserverresource;DbxClientDriver;vclwinx;DBXSybaseASADriver;frxADO26;CustomIPTransport;vcldsnap;ACBr_OpenSSL;ORMBrManagerClientDataSet;ACBr_PIXCD;ACBr_Convenio115;bindcomp;appanalytics;ORMBrManagerFDMemTable;DBXInformixDriver;ACBr_Serial;IndyIPClient;DBEBrConnectionFireDAC;frce;bindcompvcl;SVGIconImageList;TeeUI;ACBr_BlocoX;ACBr_NFSeXDanfseRL;ACBr_NFSeXDANFSeFR;dbxcds;VclSmp;ACBr_NFCeECFVirtual;adortl;FireDACODBCDriver;ACBr_BoletoFR;DataSnapIndy10ServerTransport;ACBr_Boleto;ACBr_ANe;DataSnapProviderClient;dsnapxml;dbrtl;FireDACMongoDBDriver;IndyProtocols;inetdbxpress;ACBr_SEF2;ACBr_MDFeDamdfeFR;ACBr_NF3eDANF3eESCPOS;ACBr_MTER;fmxase;$(DCC_UsePackage)</DCC_UsePackage>
         <DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
         <BT_BuildType>Debug</BT_BuildType>
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
-        <VerInfo_Keys>CompanyName=;FileDescription=$(MSBuildProjectName);FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProgramID=com.embarcadero.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
         <VerInfo_Locale>1033</VerInfo_Locale>
         <Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
-        <DCC_UnitSearchPath>C:\Sidemar\Projetos_delphi\Projetos_delphi\terceiros\SVGIconImageList\Lib\D10_3;C:\Sidemar\Projetos_delphi\Projetos_delphi\terceiros\SVGIconImageList\Source;C:\Sidemar\Projetos_delphi\Projetos_delphi\terceiros\SVGIconImageList\Image32\source;C:\Sidemar\Projetos_delphi\Projetos_delphi\terceiros\SVGIconImageList\Image32;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+        <DCC_UnitSearchPath>..\..\terceiros\SVGIconImageList\Svg;..\..\terceiros\SVGIconImageList\Image32;..\..\terceiros\SVGIconImageList\Source;..\..\terceiros\SVGIconImageList\Lib\D10_3;..\..\terceiros\SVGIconImageList\Image32\source;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win64)'!=''">
         <DCC_UsePackage>DBXSqliteDriver;RESTComponents;DataSnapServerMidas;DBXDb2Driver;DBXInterBaseDriver;vclactnband;vclFireDAC;emsclientfiredac;DataSnapFireDAC;tethering;FireDACADSDriver;DBXMSSQLDriver;DatasnapConnectorsFreePascal;FireDACMSSQLDriver;vcltouch;vcldb;bindcompfmx;DBXOracleDriver;inetdb;FmxTeeUI;emsedge;FireDACIBDriver;fmx;fmxdae;vclib;FireDACDBXDriver;dbexpress;IndyCore;vclx;dsnap;DataSnapCommon;emsclient;SVGIconImageListFMX;FireDACCommon;RESTBackendComponents;DataSnapConnectors;VCLRESTComponents;soapserver;vclie;bindengine;DBXMySQLDriver;CloudService;FireDACOracleDriver;FireDACMySQLDriver;DBXFirebirdDriver;SVGIconPackage;FireDACCommonODBC;FireDACCommonDriver;DataSnapClient;inet;bindcompdbx;IndyIPCommon;vcl;DBXSybaseASEDriver;IndyIPServer;IndySystem;FireDACDb2Driver;dsnapcon;FireDACMSAccDriver;FireDACInfxDriver;fmxFireDAC;vclimg;TeeDB;FireDAC;emshosting;FireDACSqliteDriver;FireDACPgDriver;ibmonitor;FireDACASADriver;DBXOdbcDriver;FireDACTDataDriver;FMXTee;soaprtl;DbxCommonDriver;ibxpress;Tee;DataSnapServer;xmlrtl;DataSnapNativeClient;ibxbindings;fmxobj;FireDACDSDriver;soapmidas;rtl;emsserverresource;DbxClientDriver;vclwinx;DBXSybaseASADriver;CustomIPTransport;vcldsnap;bindcomp;appanalytics;DBXInformixDriver;IndyIPClient;bindcompvcl;SVGIconImageList;TeeUI;dbxcds;VclSmp;adortl;FireDACODBCDriver;DataSnapIndy10ServerTransport;DataSnapProviderClient;dsnapxml;dbrtl;FireDACMongoDBDriver;IndyProtocols;inetdbxpress;fmxase;$(DCC_UsePackage)</DCC_UsePackage>
@@ -122,6 +123,10 @@
             <Form>FinanceiroSplashView</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="..\..\src\View\Utilites\uView.Images.List.pas">
+            <Form>ImagesListView</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -150,7 +155,7 @@
                 </Excluded_Packages>
             </Delphi.Personality>
             <Deployment Version="3">
-                <DeployFile LocalName="C:\Sidemar\Projetos_delphi\SistemaFinanceiroBasico\Installer\Financeiro\Financeiro.exe" Configuration="Debug" Class="ProjectOutput">
+                <DeployFile LocalName="..\..\..\..\SistemaFinanceiroBasico\Installer\Financeiro\Financeiro.exe" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="Win32">
                         <RemoteName>Financeiro.exe</RemoteName>
                         <Overwrite>true</Overwrite>

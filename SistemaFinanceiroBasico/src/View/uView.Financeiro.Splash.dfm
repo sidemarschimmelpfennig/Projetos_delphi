@@ -11,6 +11,7 @@ object FinanceiroSplashView: TFinanceiroSplashView
   Font.Style = []
   OldCreateOrder = False
   Position = poScreenCenter
+  OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
   object pnMain: TPanel
@@ -21,8 +22,6 @@ object FinanceiroSplashView: TFinanceiroSplashView
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 0
-    ExplicitWidth = 472
-    ExplicitHeight = 242
     object SVGFinancial: TSVGIconImage
       AlignWithMargins = True
       Left = 3
@@ -43,9 +42,26 @@ object FinanceiroSplashView: TFinanceiroSplashView
     end
     object Label1: TLabel
       Left = 0
+      Top = 263
+      Width = 534
+      Height = 25
+      Align = alBottom
+      Alignment = taCenter
+      Caption = 'Sistema Financeiro'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWhite
+      Font.Height = -19
+      Font.Name = 'Segoe UI'
+      Font.Style = []
+      ParentFont = False
+      Layout = tlCenter
+      ExplicitWidth = 158
+    end
+    object Label2: TLabel
+      Left = 0
       Top = 156
       Width = 534
-      Height = 53
+      Height = 37
       Align = alTop
       Alignment = taCenter
       Caption = 'Sistema Financeiro'
@@ -56,17 +72,23 @@ object FinanceiroSplashView: TFinanceiroSplashView
       Font.Style = [fsBold]
       ParentFont = False
       Layout = tlCenter
+      ExplicitWidth = 241
     end
-    object ProgressBar1: TProgressBar
+    object pgStatus: TProgressBar
       Left = 0
-      Top = 294
+      Top = 288
       Width = 534
-      Height = 17
+      Height = 23
       Align = alBottom
+      BarColor = 3390463
+      BackgroundColor = 3390463
       TabOrder = 0
-      ExplicitLeft = 56
-      ExplicitTop = 264
-      ExplicitWidth = 150
     end
+  end
+  object progress: TTimer
+    Interval = 50
+    OnTimer = progressTimer
+    Left = 8
+    Top = 168
   end
 end

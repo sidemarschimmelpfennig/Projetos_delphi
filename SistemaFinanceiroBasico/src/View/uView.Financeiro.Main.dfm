@@ -2130,6 +2130,7 @@ object FinanceiroMainView: TFinanceiroMainView
   Menu = MainMenu1
   OldCreateOrder = False
   WindowState = wsMaximized
+  OnCreate = FormCreate
   PixelsPerInch = 96
   TextHeight = 13
   object MainMenu1: TMainMenu
