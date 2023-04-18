@@ -14,7 +14,7 @@ type
     cpMain: TCardPanel;
     cdRegister: TCard;
     cdSearch: TCard;
-    pnRegister: TPanel;
+    pnHeader: TPanel;
     pnSearch: TPanel;
     pnGrid: TPanel;
     DBGrid1: TDBGrid;
@@ -33,10 +33,6 @@ type
     pnBtnsRegister: TPanel;
     btnCancel: TButton;
     btnSave: TButton;
-    procedure btnCloseClick(Sender: TObject);
-    procedure btnInsertClick(Sender: TObject);
-    procedure btnCancelClick(Sender: TObject);
-    procedure FormShow(Sender: TObject);
   private
     { Private declarations --- cadastro template base de Registros e alterações}
 
@@ -51,25 +47,5 @@ var
 implementation
 
 {$R *.dfm}
-
-procedure TRegirsterTemplateCRUDView.btnCancelClick(Sender: TObject);
-begin
-  cpMain.ActiveCard := cdSearch;
-end;
-
-procedure TRegirsterTemplateCRUDView.btnCloseClick(Sender: TObject);
-begin
-  Self.Close;
-end;
-
-procedure TRegirsterTemplateCRUDView.btnInsertClick(Sender: TObject);
-begin
-  cpMain.ActiveCard := cdRegister;
-end;
-
-procedure TRegirsterTemplateCRUDView.FormShow(Sender: TObject);
-begin
-  cpMain.ActiveCard := cdSearch;
-end;
 
 end.

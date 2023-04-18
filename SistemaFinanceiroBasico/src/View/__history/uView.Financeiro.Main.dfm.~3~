@@ -1,11 +1,10 @@
 object FinanceiroMainView: TFinanceiroMainView
   Left = 0
   Top = 0
-  Cursor = crArrow
   Align = alClient
   Caption = 'Sistemaa Financeiro'
-  ClientHeight = 475
-  ClientWidth = 646
+  ClientHeight = 424
+  ClientWidth = 573
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -2136,9 +2135,8 @@ object FinanceiroMainView: TFinanceiroMainView
     Left = 56
     object menuCadastros: TMenuItem
       Caption = 'Cadastro'
-      object Register: TMenuItem
-        Caption = 'Cadastro Padr'#227'o'
-        OnClick = RegisterClick
+      object Usuarios1: TMenuItem
+        Caption = 'Usuarios'
       end
       object Clientes1: TMenuItem
         Caption = 'Clientes'
